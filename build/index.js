@@ -11,6 +11,7 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.update = void 0;
 function update(array, predicate, reducer) {
     return array.map(function (el) {
         if (predicate(el)) {
