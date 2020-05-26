@@ -1,11 +1,11 @@
 Simple function for updating array items
 
-####Installation
+#### Installation
 ```
 npm i @beliaev/update-item
 ```
 
-####Usage
+#### Usage
 ```ts
 import { update } from "@beliaev/update-item"
 
@@ -36,7 +36,7 @@ updated; // -> [
 
 ```
 
-####Signature
+#### Signature
 ```ts
 function update<T>(
   array: T[],
